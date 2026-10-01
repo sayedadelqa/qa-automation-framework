@@ -1,0 +1,10 @@
+{
+  "valid": {"username": "standard_user", "password": "secret_sauce"},
+  "invalid_logins": [
+    {"username": "locked_out_user", "password": "secret_sauce", "error": "Sorry, this user has been locked out."},
+    {"username": "standard_user", "password": "wrong_password", "error": "Username and password do not match"},
+    {"username": "", "password": "secret_sauce", "error": "Username is required"},
+    {"username": "standard_user", "password": "", "error": "Password is required"}
+  ],
+  "checkout_info": {"first_name": "Sayed", "last_name": "Adel", "postal_code": "12345"}
+}
